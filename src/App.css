@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  /*  text-align: center; */
+}
+
+.App .repo-container {
+  border: 1px solid black;
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 10vh 10vw 0 10vw;
+}
+
+.App .repo-container .repo-item {
+  border: 1px solid black;
+  grid-column: auto;
+  grid-row: auto;
+  margin: 15px;
+  padding: 10px;
+}
+
+.App .searchbar {
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.App .searchbar input {
+  font-size: 1.5rem;
+}
